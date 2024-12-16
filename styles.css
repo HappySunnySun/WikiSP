@@ -4,7 +4,7 @@ body { /* Style du body */
     margin: 0;
     padding: 0;
     padding-top: 60px;
-    background: url('./src/fondpage1.jpg') no-repeat center center fixed; /* Image de fond */
+    background: url('Images/fondpage1.jpg') no-repeat center center fixed; /* Image de fond */
     background-size: cover;
     image-rendering: optimizeSpeed;
 }
