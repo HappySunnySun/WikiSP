@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="WikiSP/Acceuil/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@1.28.5/dist/umd/supabase.min.js"></script>
+    <script src="WikiSP/Connexion/connexion.js" defer></script>
+    <link rel="icon" type="image/png" href="WikiSP/Connexion/src/logo.png">
+    <title>Wiki - Scott Pilgrim Prend Son Envol</title>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="banner">
+        <a href="wikiSP/Acceuil/index.html" class="logo">
+            <img src="WikiSP/Connexion/src/logo.png" width="100,4" height="76,6">
+        </a>
+        <ul class="nav-links">
+            <li><a href="WikiSP/Histoire/histoire.html">L'histoire</a></li>
+            <li><a href="WikiSP/Personnages/personnages.html">Les personnages</a></li>
+            <li><a href="WikiSP/Connexion/connexion.html">Connexion</a></li>
+        </ul>
+    </div>
+    <div class="titre">
+        <h1>Connexion</h1>
+    </div>
+    <div class="texte">
+        <p>Connectez-vous pour accéder à des fonctionnalités supplémentaires !</p>
+    </div>
+    <div class="form-container">
+        <form id="connexionForm" method="post" action="#">
+            <input type="text" id="username" name="username" placeholder="Nom d'utilisateur" required>
+            <input type="password" id="password" name="password" placeholder="Mot de passe" required>
+            <button type="submit">Connexion</button>
+        </form>
+    </div>
+    <div class="texte">
+        <p>Vous n'avez pas de compte ? Inscrivez vous <a href="WikiSP/Inscription/inscription.html">ici</a></p>
+    </div>
