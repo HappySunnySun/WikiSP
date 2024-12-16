@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             alert('Erreur lors de la connexion.');
         } else if (data.length > 0) {
             // Rediriger vers une autre page si les informations d'identification sont correctes
-            window.location.href = '/Connexion/Redirection/redierction.html';
+            window.location.href = '/Connexion/Redirection/redirection.html';
         } else {
             alert('Nom d\'utilisateur ou mot de passe incorrect.');
         }
