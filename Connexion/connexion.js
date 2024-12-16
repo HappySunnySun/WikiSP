@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const password = document.getElementById('password').value;
 
         // Vérifier si l'utilisateur est admin
-        if (username === 'admin' && password === 'adminpassword') {
+        if (username === 'webmaster' && password === 'NSInsi') {
             window.location.href = "./Admin/admin.html";
             return;
         }
