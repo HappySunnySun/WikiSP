@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/styles.css" /> <!--lien vers le fichier css-->
     <link rel="icon" type="image/png" href="/Images/logo.png" /> <!--icone de la page-->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@1.28.5/dist/umd/supabase.min.js"></script> <!--lien vers la librairie supabase-->
-    <script src="/Inscription/inscription.js defer="defer"></script> <!--lien vers le fichier js-->
+    <script src="/Inscription/inscription.js"></script> <!--lien vers le fichier js-->
     <title>Wiki - Inscription</title> <!--titre de la page-->
 </head>
 <body>
@@ -28,7 +28,7 @@
         <p>Inscrivez-vous sur cette page !</p> <!--texte de la page-->
     </div>
     <div class="form-container"> <!--formulaire d'inscription-->
-        <form id="inscriptionForm" method="post" action="no-action">
+        <form id="inscriptionForm" method="post" action="#">
             <input type="text" id="username" name="username" placeholder="Nom d'utilisateur" required="required" />
             <input type="password" id="password" name="password" placeholder="Mot de passe" required="required" />
             <button type="submit">Inscription</button>
