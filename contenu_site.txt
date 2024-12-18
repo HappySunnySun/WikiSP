@@ -1,1 +1,8 @@
-
+Contenu du site :
+- Acceuil (index.html) : Acceuil du site qui acceuille l'utilisateur d'être venu sur le site. Il peux aller vers la page de connexion avec le lien dans la bannière du site ou ver la page Personnages ou Histoire avec des boutons présents sur la page.
+- Histoire (/Histoire/histoire.html) : Parle de l'histoire de la série et des tableaux listant les voix originales et françaises ayant doublé la série et continet une gallerie d'image, un lecteur vidéo et un lecteur audio.
+- Personnages (/Personnages/personnages.html) : Contient des un tableau avec un des 7 personnages principaux de la série avec une petite biographie.
+- Connexion (/Connexion/connexion.html) : Page permettant à l'utilisateur de se connecter avec les identifiants et mot de passe qu'il aura crée sur la page d'inscription
+- Rediection (/Connexion/Redirection)/redirection.html) : Revoie l'utilisateur vers cette page qui est un "Rickroll" quand il se connecte.
+- Admin (/Connexion/Admin/admin.html) : Page contenant le CV du site
+- Inscription (/Inscription/inscription.html) : Permet à l'utilisateur de créer son compte
