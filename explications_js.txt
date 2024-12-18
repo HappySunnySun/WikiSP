@@ -1,1 +1,2 @@
+- gallerie.js (Histoire/gallerie.js) : Script d'une gallerie permettant de voir les images présent sur le site avec un système de navigation avec des flèches et une croix pour fermer la galerie
 
