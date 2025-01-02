@@ -1,7 +1,7 @@
 // Création d'un cookie automatiquement
 document.addEventListener("DOMContentLoaded", () => {
-  const cookieName = "visiteur"; // Nom du cookie
-  const cookieValue = "UtilisateurAnonyme"; // Valeur par défaut
+  const cookieName = "WikiScottPilgrim"; // Nom du cookie
+  const cookieValue = "Utilisateur"; // Valeur par défaut
   const cookieDays = 7; // Expiration du cookie (en jours)
 
   // Fonction pour créer un cookie
