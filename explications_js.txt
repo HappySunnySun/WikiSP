@@ -1,3 +1,4 @@
 - gallerie.js (Histoire/gallerie.js) : Script d'une gallerie permettant de voir les images présent sur le site avec un système de navigation avec des flèches et une croix pour fermer la galerie.
 - connexion.js (Connection/connexion.js) : Script permettant d'utiliser l'API de Supabase afin de vérifier dans la base de donnée crée pour le site si le nom d'utilisateur et mot de passe rentré sur la page de connection (connexion.html) sont justes, si oui alors la page redirige vers la page redierction.html
 - inscription.js (Inscription/inscription.js) : Script permettant d'utiliser l'API de Supabase afin de créer dans la base de donnée crée pour le site si le nom d'utilisateur et mot de passe rentré sur la page d'inscription (inscription.html) pour pouvoir ensuite être rentrés dans la page de connexion (connexion.html)
+- cookies.js (cookies.js) : Script qui permet la création simple d'un cookie en allant sur le site
